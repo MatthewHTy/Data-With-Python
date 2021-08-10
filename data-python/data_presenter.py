@@ -41,7 +41,7 @@ for row in open_file:
     print(total)
 
 #  6.
-
+total = 0
 for row in open_file:
     value = row.split(',')
     total = total + int(value[3]) * float(value[4])
